@@ -1,0 +1,5 @@
+spring:
+  config:
+    import:
+      - classpath:properties/docker/logging.yml
+      - classpath:properties/docker/redis.yml

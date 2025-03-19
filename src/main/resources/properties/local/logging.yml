@@ -1,0 +1,13 @@
+logging:
+  level:
+    com.autocrypt: debug
+
+#logging:
+#  level:
+#    org.hibernate.SQL: DEBUG
+#    org.hibernate.orm.jdbc.bind: TRACE
+#    org.hibernate.resource.transaction: DEBUG
+#    org.springframework:
+#      transaction: TRACE
+#      jdbc.datasource.DataSourceTransactionManager: DEBUG
+#      orm.jpa: TRACE

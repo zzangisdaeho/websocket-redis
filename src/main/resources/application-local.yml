@@ -1,0 +1,5 @@
+spring:
+  config:
+    import:
+      - classpath:properties/local/logging.yml
+      - classpath:properties/local/redis.yml

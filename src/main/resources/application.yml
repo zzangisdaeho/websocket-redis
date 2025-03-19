@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: websocket_redis
+
+#service:
+#  prefix: ${SERVICE.PREFIX}
+
+
+
+
+
