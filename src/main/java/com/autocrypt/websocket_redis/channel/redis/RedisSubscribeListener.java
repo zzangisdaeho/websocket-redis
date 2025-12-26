@@ -1,6 +1,6 @@
 package com.autocrypt.websocket_redis.channel.redis;
 
-import com.autocrypt.websocket_redis.channel.ChannelRequest;
+import com.autocrypt.websocket_redis.channel.dto.ChannelRequest;
 import com.autocrypt.websocket_redis.session.SessionManager;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

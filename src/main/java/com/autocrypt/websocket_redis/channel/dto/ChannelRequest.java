@@ -1,4 +1,4 @@
-package com.autocrypt.websocket_redis.channel;
+package com.autocrypt.websocket_redis.channel.dto;
 
 import lombok.Data;
 

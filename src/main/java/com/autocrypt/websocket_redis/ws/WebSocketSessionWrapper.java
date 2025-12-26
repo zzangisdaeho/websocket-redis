@@ -38,7 +38,7 @@ public class WebSocketSessionWrapper {
                     stop();
                     return;
                 }
-                session.sendMessage(new PingMessage(ByteBuffer.allocate(0)));
+                session.sendMessage(new PingMessage());
                 log.debug("📤 Sent Ping to : {}", userId);
 
                 // 마지막 Pong 응답이 10초 이상 없으면 세션 종료

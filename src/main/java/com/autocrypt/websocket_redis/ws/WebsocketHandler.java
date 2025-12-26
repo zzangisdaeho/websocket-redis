@@ -22,6 +22,7 @@ public class WebsocketHandler extends AbstractWebSocketHandler {
 
     @Override
     public void afterConnectionEstablished(WebSocketSession session) throws Exception {
+        log.debug("connection remoteAddress : {}, localAddress : {}", session.getRemoteAddress(), session.getLocalAddress());
         String userId = getUserIdFromSession(session);
         sessionManager.addSession(userId, session);
     }
